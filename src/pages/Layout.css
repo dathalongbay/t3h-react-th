@@ -1,0 +1,23 @@
+.mainMenu {
+    background: olivedrab;
+    height: 200px;
+    overflow: auto;
+}
+
+.mainMenu ul {
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+}
+
+.mainMenu ul li {
+    padding: 10px;
+    background: peru;
+    margin: 10px;
+
+}
+
+.mainMenu ul li a {
+    color: white;
+    text-decoration: none;
+}
